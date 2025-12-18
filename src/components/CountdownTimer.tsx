@@ -40,7 +40,7 @@ export default function CountdownTimer() {
           </svg>
 
           <div className="flex items-center gap-2">
-            <span className="text-sm font-medium" style={{ color: 'var(--primary)' }}>Tiempo restante:</span>
+            <span className="text-sm font-medium" style={{ color: 'var(--secondary)' }}>Tiempo restante:</span>
             <div className="flex items-center gap-1">
               {/* Minutos */}
               <div className="bg-white bg-opacity-20 rounded px-2 py-1 min-w-[40px] text-center">
