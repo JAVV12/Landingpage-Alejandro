@@ -66,7 +66,7 @@ export default function CountdownTimer() {
             <img
               src="https://drive.google.com/thumbnail?id=1RLNZ4O91bBtbIr2fAqBUjpt4eKpVgiqU&sz=s256"
               alt="Logo Autoliderazgo"
-              className="w-10 h-10 object-contain"
+              className="w-12 h-12 object-contain"
               onError={(e) => {
                 // Intentar con otra URL de Google Drive
                 const img = e.currentTarget as HTMLImageElement;
@@ -77,7 +77,7 @@ export default function CountdownTimer() {
                   img.style.display = 'none';
                   const parent = img.parentElement;
                   if (parent) {
-                    parent.innerHTML = '<div class="w-10 h-10 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-sm">AL</div>';
+                    parent.innerHTML = '<div class="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center text-white font-bold text-sm">AL</div>';
                   }
                 }
               }}
