@@ -30,7 +30,7 @@ export default function CountdownTimer() {
   }
 
   return (
-    <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-4 px-6 shadow-lg">
+    <div className="text-white py-4 px-6 shadow-lg" style={{ background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)' }}>
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         {/* Lado izquierdo: Contador */}
         <div className="flex items-center gap-4">
@@ -46,7 +46,7 @@ export default function CountdownTimer() {
               <div className="bg-white bg-opacity-20 rounded px-2 py-1 min-w-[40px] text-center">
                 <span className="font-bold text-xl" style={{ color: 'var(--primary)' }}>{formatTime(minutes)}</span>
               </div>
-              <span className="text-xl font-bold" style={{ color: 'var(--primary)' }}>:</span>
+              <span className="text-xl font-bold" style={{ color: 'var(--secondary)' }}>:</span>
               {/* Segundos */}
               <div className="bg-white bg-opacity-20 rounded px-2 py-1 min-w-[40px] text-center">
                 <span className="font-bold text-xl" style={{ color: 'var(--primary)' }}>{formatTime(seconds)}</span>

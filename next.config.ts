@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Deshabilitar Turbopack usando webpack como bundler
-  webpack: (config) => {
-    return config;
-  },
+  /* config options here */
 };
 
 export default nextConfig;
