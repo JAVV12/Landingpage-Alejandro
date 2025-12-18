@@ -1,3 +1,4 @@
+import CountdownTimer from '@/components/CountdownTimer';
 import Hero from '@/components/Hero';
 import Problem from '@/components/Problem';
 import Solution from '@/components/Solution';
@@ -12,6 +13,7 @@ import FinalCTA from '@/components/FinalCTA';
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <CountdownTimer />
       <Hero />
       <Problem />
       <Solution />
